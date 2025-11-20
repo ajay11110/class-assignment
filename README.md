@@ -1,1 +1,1 @@
-C class assignment 1.
+class assignment 1.
