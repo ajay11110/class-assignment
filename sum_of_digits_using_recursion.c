@@ -1,27 +1,26 @@
 #include <stdio.h>
 
-int reverse(int num)
+int add(int *a, int *b)
 {
-    int sum = 0;
-    while (num != 0)
+    if (*a == 0)
     {
-        int digit = num % 10;
-        sum = sum + digit;
-        num = num / 10;
+        return *b;
     }
-    return sum;
-}
 
+    int c = *a % 10;
+    *b += c;
+    *a /= 10;
+
+    return add(a, b);
+}
 int main()
 {
-    int n, result;
 
-    printf("Enter a number: ");
-    scanf("%d", &n);
+    int num, sum = 0;
+   
+    printf("enter number :");
+    scanf("%d", &num);
 
-    result = reverse(n);
-    printf("Sum of digiits is: %d", result);
-
-    printf("\nAJAY YADAV,125113041");
+    printf("sum of digits is %d", add(&num, &sum));
     return 0;
 }
