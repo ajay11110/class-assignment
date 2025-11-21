@@ -5,7 +5,7 @@ int main()
 
 	int a;
 
-	printf("ENTER NUMBER TO FINT FACTORIAL:");
+	printf("ENTER NUMBER TO FIND FACTORIAL:");
 	scanf("%d", &a);
 	if (a == 0)
 	{
@@ -32,3 +32,4 @@ int main()
 	printf("\nAJAY YADAV,125113041");
 	return 0;
 }
+
