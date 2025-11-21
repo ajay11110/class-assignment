@@ -22,5 +22,8 @@ int main()
     scanf("%d", &num);
 
     printf("sum of digits is %d", add(&num, &sum));
+
+     printf("\nAJAY YADAV,125113041");
     return 0;
 }
+
