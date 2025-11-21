@@ -36,7 +36,6 @@ int main()
 
     printf("\nAJAY YADAV,125113041");
 
-    printf("\nAJAY YADAV,125113041");
-
     return 0;
 }
+
